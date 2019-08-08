@@ -467,7 +467,7 @@
         <!-- use the following if you ARE using a snapshot version. -->
         <repository>
             <id>i2r-dev</id>
-            <url>http://40.69.84.144:8081/repository/i2r-development/</url>
+            <url>http://i2r.northeurope.cloudapp.azure.com:8081/repository/i2r-development/</url>
         </repository>
     </distributionManagement>
 
