@@ -475,7 +475,8 @@
         <snapshotRepository>
             <id>i2r-opensource-snapshots</id>
             <name>i2r snapshots repo</name>
-            <url>http://n.i2r-opensource.com/repository/maven-snapshots/</url>
+            <!-- change to n. host when will be available.... -->
+            <url>http://i2r-opensource.com:8081/repository/maven-snapshots/</url>
             <uniqueVersion>true</uniqueVersion>
         </snapshotRepository>
     </distributionManagement>
