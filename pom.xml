@@ -468,14 +468,14 @@
         <repository>
             <id>i2r-opensource-releases</id>
             <name>I2r - releases REPO</name>
-            <!--            <url>http://n.i2r-opensource.com/repository/maven-releases/</url>-->
+            <url>http://n.i2r-opensource.com/repository/maven-releases/</url>
             <uniqueVersion>true</uniqueVersion>
         </repository>
         <!-- use the following if you ARE using a snapshot version. -->
         <snapshotRepository>
             <id>i2r-opensource-snapshots</id>
             <name>i2r snapshots repo</name>
-<!--            <url>http://n.i2r-opensource.com/repository/maven-snapshots/</url>-->
+            <url>http://n.i2r-opensource.com/repository/maven-snapshots/</url>
             <uniqueVersion>true</uniqueVersion>
         </snapshotRepository>
     </distributionManagement>
