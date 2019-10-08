@@ -3,7 +3,7 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <groupId>net.i2r</groupId>
+    <groupId>com.i2r</groupId>
     <artifactId>i2r-parent</artifactId>
     <version>1.0.0-SNAPSHOT</version>
     <packaging>pom</packaging>
@@ -464,11 +464,20 @@
     </profiles>
 
     <distributionManagement>
-        <!-- use the following if you ARE using a snapshot version. -->
+        <!-- use the following if you ARE using a release version. -->
         <repository>
-            <id>i2r-dev</id>
-            <url>http://i2r.northeurope.cloudapp.azure.com:8081/repository/i2r-development/</url>
+            <id>i2r-opensource-releases</id>
+            <name>I2r - releases REPO</name>
+            <url>http://n.i2r-opensource.com/repository/maven-releases/</url>
+            <uniqueVersion>true</uniqueVersion>
         </repository>
+        <!-- use the following if you ARE using a snapshot version. -->
+        <snapshotRepository>
+            <id>I2r - snapshots REPO</id>
+            <name>SDN-System Snapshot Repository</name>
+            <url>http://n.i2r-opensource.com/repository/maven-snapshots/</url>
+            <uniqueVersion>true</uniqueVersion>
+        </snapshotRepository>
     </distributionManagement>
 
 </project>
