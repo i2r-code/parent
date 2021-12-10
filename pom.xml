@@ -27,7 +27,7 @@
         <logback-classic.version>1.2.3</logback-classic.version>
         <commons-logging.version>1.2</commons-logging.version>
         <log4j.version>1.2.17</log4j.version>
-        <log4j2-api.version>2.8.2</log4j2-api.version>
+        <log4j2-api.version>2.15.0</log4j2-api.version>
         <log4j2-core.version>${log4j2-api.version}</log4j2-core.version>
         <!-- bridges to slf4j -->
         <jul-to-slf4j.version>${slf4j.version}</jul-to-slf4j.version>
